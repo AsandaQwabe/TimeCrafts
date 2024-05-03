@@ -5,7 +5,6 @@
     android:gravity="center"
     android:background="@drawable/ombre_background">
 
-    <!-- Logo ImageView -->
     <ImageView
         android:id="@+id/imageViewLogo"
         android:layout_width="97dp"
@@ -13,8 +12,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:src="@drawable/logo" />
-
-    <!-- Text "Timer" -->
     <TextView
         android:id="@+id/textViewTimer"
         android:layout_width="wrap_content"
@@ -25,8 +22,6 @@
         android:layout_below="@id/imageViewLogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"/>
-
-    <!-- Chronometer to display the timer -->
     <Chronometer
         android:id="@+id/chronometer"
         android:layout_width="wrap_content"
@@ -36,8 +31,6 @@
         android:layout_below="@id/textViewTimer"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
-
-    <!-- LinearLayout for buttons -->
     <LinearLayout
         android:id="@+id/linearLayoutButtons"
         android:layout_width="match_parent"
@@ -47,7 +40,6 @@
         android:layout_below="@id/chronometer"
         android:layout_marginTop="16dp">
 
-        <!-- Start button -->
         <Button
             android:id="@+id/buttonStart"
             android:layout_width="wrap_content"
@@ -55,7 +47,7 @@
             android:text="Start"
             android:backgroundTint="@color/black"/>
 
-        <!-- Stop button -->
+
         <Button
             android:id="@+id/buttonStop"
             android:layout_width="wrap_content"
@@ -65,7 +57,7 @@
             android:layout_marginEnd="8dp"
             android:backgroundTint="@color/black"/>
 
-        <!-- Reset button -->
+
         <Button
             android:id="@+id/buttonReset"
             android:layout_width="wrap_content"

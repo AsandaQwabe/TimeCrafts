@@ -14,9 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         // Delay for 3 seconds
         Handler().postDelayed({
-            // Start Menu activity
             startActivity(Intent(this, HomeActivity::class.java))
-            // Finish MainActivity
             finish()
         }, 3000)
     }
